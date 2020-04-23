@@ -70,7 +70,7 @@ form.addEventListener('submit', e => {
             else if(form.q3.value === 'A' && form.q4.value === 'A'){
                 alertUser();
             }
-        },3000)
+        },2000)
     }
     else{
         const button = document.getElementById('button');
