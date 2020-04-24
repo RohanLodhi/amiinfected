@@ -9,6 +9,7 @@
   }
   
   .popup{
+    border-radius: 25px;
     font-family: arial;
     text-align: center;
     width: 100%;

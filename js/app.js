@@ -59,7 +59,7 @@ form.addEventListener('submit', e => {
                 result.querySelector('span').textContent = `${output}%`;
                 output++;
             }
-        },30)
+        },10)
         setTimeout(() => {
             if(form.q3.value === 'A' && form.q6.value === 'A'){
                 alertUser();
